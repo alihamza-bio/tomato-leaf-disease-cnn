@@ -1,0 +1,16 @@
+Test set results of the original run (182 images; 70/15/15 split, seed 42).
+
+                             precision    recall  f1-score   support
+
+      Tomato___Early_blight       0.51      0.54      0.53        46
+       Tomato___Late_blight       0.57      0.44      0.50        18
+         Tomato___Leaf_Mold       0.63      0.65      0.64        60
+Tomato___Septoria_leaf_spot       0.63      0.71      0.67        17
+       Tomato___Target_Spot       0.72      0.81      0.76        16
+           Tomato___healthy       0.55      0.44      0.49        25
+
+                   accuracy                           0.59       182
+                  macro avg       0.60      0.60      0.60       182
+               weighted avg       0.59      0.59      0.59       182
+
+Test accuracy: 59.34%
